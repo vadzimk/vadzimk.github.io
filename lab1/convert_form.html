@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+<head>
+    <title>Conversion Form</title>
+</head>
+<body>
+<form method="post" action="display_input.php">
+    <p><strong>text field:</strong><br>
+        <textarea name="text1" cols=45 rows=5 wrap=virtual></textarea></p>
+    <p><strong>string function:</strong><br>
+        <input type="radio" name="func" value="md5"> get md5<br>
+        <input type="radio" name="func" value="strlen"> get length of string<br>
+        <input type="radio" name="func" value="strrev"> reverse the string<br>
+        <input type="radio" name="func" value="strtoupper"> make string uppercase<br>
+        <input type="radio" name="func" value="strtolower"> make string lowercase<br>
+        <input type="radio" name="func" value="ucwords"> make first letter of all words uppercase</p>
+    <p><input type="submit" name="submit" value="do something with the string"></p>
+</form>
+</body>
+</html>
+
